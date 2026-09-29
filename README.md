@@ -80,7 +80,6 @@ gamecampstore/
 │   ├── Corousel/
 │   ├── game_images/
 │   └── profile_images/
-
 │
 ├── vendor/
 │   └── ...
