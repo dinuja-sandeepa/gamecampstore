@@ -72,14 +72,15 @@ A simplified overview of the project structure:
 ```text
 gamecampstore/
 │
-├── assets/
-│   ├── css/
-│   ├── js/
-│   ├── images/
-│   └── ...
-│
 ├── database/
 │   └── gamecamp_db.sql
+│ 
+├── resources/
+│   ├── banner/
+│   ├── Corousel/
+│   ├── game_images/
+│   └── profile_images/
+
 │
 ├── vendor/
 │   └── ...
