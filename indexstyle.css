@@ -1,0 +1,143 @@
+/* Carousel styling */
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+  height: 100vh;
+}
+
+/* .welcome {
+    position: relative;
+font-size: 6em;
+color: #0e3742;
+text-transform: uppercase;
+-webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+line-height: 0.70em;
+outline: none;
+animation: animate 5s linear infinite;
+}
+
+@keyframes animate
+ {
+    0%,18%,20%,50.1%,65.1%,80%,90.1%,92%,
+    {
+        color:#0e3742;
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+    {
+        color : #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0  20px #03bcf4,
+        0 0  40px #03bcf4,
+        0 0  80px #03bcf4,
+        0 0  160px #03bcf4,
+    }
+} */
+
+.text-box {
+  color: #fff;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome {
+  font-size: 50px;
+  font-weight: 600;
+  animation: animate 1s ease-in-out infinite alternate;
+
+}
+
+.gamecamp {
+  font-size: 80px;
+  margin-left: -10px;
+  font-weight: bold;
+  color: #2DCDDF;
+  font-family: helvetica;
+  animation: animate 1s ease-in-out infinite alternate;
+}
+
+@keyframes animate {
+  from {
+    text-shadow: 0 0 20px #289aab;
+  }
+  to {
+    text-shadow: 0 0 30px #289aab, 0 0 10px #289aab;
+  }
+}
+
+.gamecampSub {
+  font-size: 100px;
+  line-height: 160px;
+  margin-left: -10px;
+  font-weight: bold;
+  color: #2DCDDF;
+  animation: animate 1s ease-in-out infinite alternate;
+}
+
+.explore {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  animation: animate 1s ease-in-out infinite alternate;
+
+}
+
+/* .shopNow {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border: 2px solid #fff;
+} */
+
+.shopNow {
+    color: #2DCDDF;
+    border: 6px solid #2DCDDF;
+    border-radius:15px;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family: tahoma;
+    letter-spacing:5px;
+    cursor: pointer;
+    font-weight: bold;
+    filter: drop-shadow(0 0 15px #2DCDDF) drop-shadow(0 0 50px #2DCDDF) contrast(2) brightness(2);
+    transition: .5s;
+  }
+  
+  .shopNow:hover {
+    color: white;
+    background-color: #2DCDDF;
+    filter: drop-shadow(0 0 20px #2DCDDF) contrast(2) brightness(2);
+  }
+  
+
+.carousel-item:nth-child(1) {
+  background-image: url("resources/Carousel/image2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+  background-image: url("resources/banner/banner2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+  background-image: url("resources/banner/banner3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  #introCarousel {
+    margin-top: -58.59px;
+  }
+}
+
